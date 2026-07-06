@@ -1,13 +1,16 @@
 package com.everythingcrms.entity;
 
 public class UserTest {
-    int age;
-    String name;
-    String gender;
-    String id;
+    private int age;
+    private String name;
+    private String gender;
+    private String id;
 
 
-
+   
+    public UserTest(){
+        
+    }
     public UserTest(int age, String name, String gender, String id) {
         this.age = age;
         this.name=name;
