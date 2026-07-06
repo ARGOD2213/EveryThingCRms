@@ -1,4 +1,4 @@
-package com.everythingcrms.backend;
+package com.everythingcrms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

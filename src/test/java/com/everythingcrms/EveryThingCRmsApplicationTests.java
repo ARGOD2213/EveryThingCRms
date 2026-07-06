@@ -1,4 +1,4 @@
-package com.everythingcrms.backend;
+package com.everythingcrms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

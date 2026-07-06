@@ -1,0 +1,694 @@
+Command timed out after 60s (default timeout applied by the system) and was forcibly terminated by the system. 
+The command did not fail or crash — it was killed because it exceeded the time limit. 
+If your command needs more time, retry the command and use the `timeout` parameter to extend the time limit.
+Command output:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.EveryThingCRms:EveryThingCRms >------------------
+[INFO] Building EveryThingCRms 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.0:run (default-cli) > test-compile @ EveryThingCRms >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ EveryThingCRms ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.5.0/maven-filtering-3.5.0.jar
+Progress (1): 0.9/61 kB
+Progress (1): 2.3/61 kB
+Progress (1): 3.6/61 kB
+Progress (1): 5.0/61 kB
+Progress (1): 6.4/61 kB
+Progress (1): 7.7/61 kB
+Progress (1): 9.1/61 kB
+Progress (1): 10/61 kB 
+Progress (1): 12/61 kB
+Progress (1): 13/61 kB
+Progress (1): 15/61 kB
+Progress (1): 16/61 kB
+Progress (1): 17/61 kB
+Progress (1): 19/61 kB
+Progress (1): 20/61 kB
+Progress (1): 21/61 kB
+Progress (1): 23/61 kB
+Progress (1): 24/61 kB
+Progress (1): 26/61 kB
+Progress (1): 27/61 kB
+Progress (1): 28/61 kB
+Progress (1): 30/61 kB
+Progress (1): 31/61 kB
+Progress (1): 32/61 kB
+Progress (1): 34/61 kB
+Progress (1): 35/61 kB
+Progress (1): 36/61 kB
+Progress (1): 38/61 kB
+Progress (1): 39/61 kB
+Progress (1): 41/61 kB
+Progress (1): 42/61 kB
+Progress (1): 43/61 kB
+Progress (1): 45/61 kB
+Progress (1): 46/61 kB
+Progress (1): 47/61 kB
+Progress (1): 49/61 kB
+Progress (1): 50/61 kB
+Progress (1): 52/61 kB
+Progress (1): 53/61 kB
+Progress (1): 54/61 kB
+Progress (1): 56/61 kB
+Progress (1): 57/61 kB
+Progress (1): 61 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.5.0/maven-filtering-3.5.0.jar (61 kB at 100 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-build-api/1.2.0/plexus-build-api-1.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M4/org.eclipse.sisu.plexus-0.9.0.M4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.6.0/plexus-utils-3.6.0.jar
+Progress (1): 3.8/216 kB
+Progress (1): 7.7/216 kB
+Progress (1): 12/216 kB 
+Progress (1): 16/216 kB
+Progress (1): 20/216 kB
+Progress (1): 25/216 kB
+Progress (1): 29/216 kB
+Progress (1): 33/216 kB
+Progress (1): 37/216 kB
+Progress (1): 42/216 kB
+Progress (1): 46/216 kB
+Progress (1): 50/216 kB
+Progress (1): 54/216 kB
+Progress (1): 58/216 kB
+Progress (1): 63/216 kB
+Progress (1): 67/216 kB
+Progress (1): 71/216 kB
+Progress (1): 75/216 kB
+Progress (1): 80/216 kB
+Progress (1): 84/216 kB
+Progress (1): 88/216 kB
+Progress (1): 92/216 kB
+Progress (1): 97/216 kB
+Progress (1): 101/216 kB
+Progress (1): 105/216 kB
+Progress (1): 109/216 kB
+Progress (1): 113/216 kB
+Progress (1): 118/216 kB
+Progress (1): 122/216 kB
+Progress (1): 122/216 kB
+Progress (1): 127/216 kB
+Progress (1): 131/216 kB
+Progress (1): 135/216 kB
+Progress (1): 139/216 kB
+Progress (1): 144/216 kB
+Progress (2): 144/216 kB | 0.9/88 kB
+Progress (2): 148/216 kB | 0.9/88 kB
+Progress (2): 148/216 kB | 2.3/88 kB
+Progress (2): 148/216 kB | 3.6/88 kB
+Progress (2): 152/216 kB | 3.6/88 kB
+Progress (2): 152/216 kB | 5.0/88 kB
+Progress (2): 152/216 kB | 6.4/88 kB
+Progress (2): 152/216 kB | 7.7/88 kB
+Progress (2): 152/216 kB | 9.1/88 kB
+Progress (2): 152/216 kB | 10/88 kB 
+Progress (2): 152/216 kB | 12/88 kB
+Progress (2): 152/216 kB | 12/88 kB
+Progress (2): 152/216 kB | 14/88 kB
+Progress (2): 152/216 kB | 15/88 kB
+Progress (2): 156/216 kB | 15/88 kB
+Progress (2): 156/216 kB | 16/88 kB
+Progress (2): 156/216 kB | 18/88 kB
+Progress (2): 156/216 kB | 19/88 kB
+Progress (2): 156/216 kB | 21/88 kB
+Progress (2): 156/216 kB | 22/88 kB
+Progress (2): 156/216 kB | 23/88 kB
+Progress (2): 156/216 kB | 25/88 kB
+Progress (2): 156/216 kB | 26/88 kB
+Progress (2): 156/216 kB | 27/88 kB
+Progress (2): 156/216 kB | 29/88 kB
+Progress (2): 156/216 kB | 30/88 kB
+Progress (2): 156/216 kB | 31/88 kB
+Progress (2): 156/216 kB | 33/88 kB
+Progress (2): 156/216 kB | 34/88 kB
+Progress (2): 156/216 kB | 36/88 kB
+Progress (2): 156/216 kB | 37/88 kB
+Progress (2): 173/216 kB | 37/88 kB
+Progress (2): 173/216 kB | 38/88 kB
+Progress (2): 173/216 kB | 40/88 kB
+Progress (2): 173/216 kB | 41/88 kB
+Progress (2): 173/216 kB | 42/88 kB
+Progress (2): 173/216 kB | 44/88 kB
+Progress (2): 173/216 kB | 45/88 kB
+Progress (2): 173/216 kB | 47/88 kB
+Progress (2): 173/216 kB | 48/88 kB
+Progress (2): 173/216 kB | 49/88 kB
+Progress (2): 173/216 kB | 51/88 kB
+Progress (2): 173/216 kB | 52/88 kB
+Progress (2): 173/216 kB | 53/88 kB
+Progress (2): 189/216 kB | 53/88 kB
+Progress (2): 189/216 kB | 55/88 kB
+Progress (2): 189/216 kB | 59/88 kB
+Progress (2): 189/216 kB | 63/88 kB
+Progress (2): 189/216 kB | 67/88 kB
+Progress (2): 189/216 kB | 72/88 kB
+Progress (2): 189/216 kB | 76/88 kB
+Progress (2): 189/216 kB | 80/88 kB
+Progress (2): 189/216 kB | 84/88 kB
+Progress (2): 189/216 kB | 88 kB   
+Progress (2): 205/216 kB | 88 kB
+Progress (2): 216 kB | 88 kB    
+Progress (3): 216 kB | 88 kB | 0.9/6.6 kB
+Progress (3): 216 kB | 88 kB | 2.3/6.6 kB
+Progress (3): 216 kB | 88 kB | 3.6/6.6 kB
+Progress (3): 216 kB | 88 kB | 5.0/6.6 kB
+Progress (3): 216 kB | 88 kB | 6.4/6.6 kB
+Progress (3): 216 kB | 88 kB | 6.6 kB    
+Progress (4): 216 kB | 88 kB | 6.6 kB | 0.9/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 2.3/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 3.6/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 5.0/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 6.4/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 7.7/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 9.1/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 10/272 kB 
+Progress (4): 216 kB | 88 kB | 6.6 kB | 12/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 13/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 15/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 16/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 17/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 19/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 20/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 21/272 kB
+Progress (4): 216 kB | 88 kB | 6.6 kB | 23/272 kB
+                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar (88 kB at 541 kB/s)
+Progress (3): 216 kB | 6.6 kB | 24/272 kB
+Progress (3): 216 kB | 6.6 kB | 26/272 kB
+Progress (3): 216 kB | 6.6 kB | 27/272 kB
+Progress (3): 216 kB | 6.6 kB | 28/272 kB
+Progress (3): 216 kB | 6.6 kB | 30/272 kB
+Progress (3): 216 kB | 6.6 kB | 31/272 kB
+Progress (3): 216 kB | 6.6 kB | 32/272 kB
+Progress (3): 216 kB | 6.6 kB | 34/272 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-build-api/1.2.0/plexus-build-api-1.2.0.jar (6.6 kB at 39 kB/s)
+Progress (2): 216 kB | 35/272 kB
+Progress (2): 216 kB | 36/272 kB
+Progress (2): 216 kB | 38/272 kB
+Progress (2): 216 kB | 39/272 kB
+Progress (2): 216 kB | 41/272 kB
+Progress (2): 216 kB | 42/272 kB
+Progress (2): 216 kB | 43/272 kB
+Progress (2): 216 kB | 45/272 kB
+Progress (2): 216 kB | 46/272 kB
+Progress (2): 216 kB | 47/272 kB
+Progress (2): 216 kB | 49/272 kB
+Progress (2): 216 kB | 50/272 kB
+Progress (2): 216 kB | 52/272 kB
+Progress (2): 216 kB | 53/272 kB
+Progress (2): 216 kB | 54/272 kB
+Progress (2): 216 kB | 56/272 kB
+Progress (2): 216 kB | 60/272 kB
+Progress (2): 216 kB | 64/272 kB
+Progress (2): 216 kB | 68/272 kB
+Progress (2): 216 kB | 73/272 kB
+Progress (2): 216 kB | 77/272 kB
+Progress (2): 216 kB | 81/272 kB
+Progress (2): 216 kB | 85/272 kB
+Progress (2): 216 kB | 89/272 kB
+Progress (2): 216 kB | 94/272 kB
+Progress (2): 216 kB | 98/272 kB
+Progress (2): 216 kB | 102/272 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M4/org.eclipse.sisu.plexus-0.9.0.M4.jar (216 kB at 1.2 MB/s)
+Progress (1): 106/272 kB
+Progress (1): 111/272 kB
+Progress (1): 115/272 kB
+Progress (1): 119/272 kB
+Progress (1): 122/272 kB
+Progress (1): 127/272 kB
+Progress (1): 131/272 kB
+Progress (1): 135/272 kB
+Progress (1): 139/272 kB
+Progress (1): 144/272 kB
+Progress (1): 148/272 kB
+Progress (1): 152/272 kB
+Progress (1): 156/272 kB
+Progress (1): 160/272 kB
+Progress (1): 165/272 kB
+Progress (1): 169/272 kB
+Progress (1): 173/272 kB
+Progress (1): 177/272 kB
+Progress (1): 182/272 kB
+Progress (1): 186/272 kB
+Progress (1): 190/272 kB
+Progress (1): 194/272 kB
+Progress (1): 199/272 kB
+Progress (1): 203/272 kB
+Progress (1): 207/272 kB
+Progress (1): 211/272 kB
+Progress (1): 215/272 kB
+Progress (1): 220/272 kB
+Progress (1): 224/272 kB
+Progress (1): 240/272 kB
+Progress (1): 253/272 kB
+Progress (1): 270/272 kB
+Progress (1): 272 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.6.0/plexus-utils-3.6.0.jar (272 kB at 1.4 MB/s)
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ EveryThingCRms ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar
+Progress (1): 7.7/126 kB
+Progress (1): 15/126 kB 
+Progress (1): 32/126 kB
+Progress (1): 48/126 kB
+Progress (1): 65/126 kB
+Progress (1): 81/126 kB
+Progress (1): 97/126 kB
+Progress (1): 114/126 kB
+Progress (1): 126 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar (126 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.jar
+Progress (1): 3.8/29 kB
+Progress (1): 8.0/29 kB
+Progress (1): 12/29 kB 
+Progress (1): 16/29 kB
+Progress (2): 16/29 kB | 0.9/5.2 kB
+Progress (2): 21/29 kB | 0.9/5.2 kB
+Progress (2): 21/29 kB | 2.3/5.2 kB
+Progress (3): 21/29 kB | 2.3/5.2 kB | 7.7/57 kB
+Progress (3): 24/29 kB | 2.3/5.2 kB | 7.7/57 kB
+Progress (3): 24/29 kB | 3.6/5.2 kB | 7.7/57 kB
+Progress (3): 24/29 kB | 3.6/5.2 kB | 16/57 kB 
+Progress (3): 28/29 kB | 3.6/5.2 kB | 16/57 kB
+Progress (3): 28/29 kB | 3.6/5.2 kB | 24/57 kB
+Progress (3): 28/29 kB | 5.0/5.2 kB | 24/57 kB
+Progress (3): 29 kB | 5.0/5.2 kB | 24/57 kB   
+Progress (3): 29 kB | 5.2 kB | 24/57 kB    
+Progress (3): 29 kB | 5.2 kB | 40/57 kB
+Progress (4): 29 kB | 5.2 kB | 40/57 kB | 7.7/30 kB
+Progress (4): 29 kB | 5.2 kB | 40/57 kB | 15/30 kB 
+Progress (4): 29 kB | 5.2 kB | 57/57 kB | 15/30 kB
+Progress (4): 29 kB | 5.2 kB | 57 kB | 15/30 kB   
+Progress (4): 29 kB | 5.2 kB | 57 kB | 30 kB   
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.jar (29 kB at 428 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.jar (57 kB at 819 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar (5.2 kB at 76 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.jar (30 kB at 433 kB/s)
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 3 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ EveryThingCRms ---
+[INFO] skip non existing resourceDirectory C:\Users\Public\MMrsCrms\EveryThingCRms\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ EveryThingCRms ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.1.0:run (default-cli) < test-compile @ EveryThingCRms <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.0:run (default-cli) @ EveryThingCRms ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar
+Progress (1): 7.7/333 kB
+Progress (1): 16/333 kB 
+Progress (1): 32/333 kB
+Progress (1): 49/333 kB
+Progress (1): 65/333 kB
+Progress (1): 81/333 kB
+Progress (1): 98/333 kB
+Progress (1): 114/333 kB
+Progress (1): 131/333 kB
+Progress (1): 147/333 kB
+Progress (1): 163/333 kB
+Progress (1): 180/333 kB
+Progress (1): 196/333 kB
+Progress (1): 212/333 kB
+Progress (1): 229/333 kB
+Progress (1): 229/333 kB
+Progress (1): 246/333 kB
+Progress (1): 262/333 kB
+Progress (1): 279/333 kB
+Progress (1): 295/333 kB
+Progress (1): 311/333 kB
+Progress (1): 328/333 kB
+Progress (1): 333 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar (333 kB at 3.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (1): 0.1/1.1 MB
+Progress (2): 0.1/1.1 MB | 3.8/953 kB
+Progress (2): 0.1/1.1 MB | 3.8/953 kB
+Progress (3): 0.1/1.1 MB | 3.8/953 kB | 7.7/342 kB
+Progress (3): 0.1/1.1 MB | 3.8/953 kB | 12/342 kB 
+Progress (3): 0.1/1.1 MB | 3.8/953 kB | 29/342 kB
+Progress (3): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 0.9/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 2.3/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 3.6/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 5.0/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 6.4/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 7.7/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 9.1/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 10/263 kB 
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 12/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 13/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 13/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 15/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 16/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 17/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 19/263 kB
+Progress (4): 0.1/1.1 MB | 3.8/953 kB | 45/342 kB | 20/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 20/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 21/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 23/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 24/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 26/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 27/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 28/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 30/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 31/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 32/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 33/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 35/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 36/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 37/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 39/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 40/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 45/342 kB | 40/263 kB
+Progress (4): 0.2/1.1 MB | 3.8/953 kB | 61/342 kB | 40/263 kB
+Progress (4): 0.2/1.1 MB | 8.0/953 kB | 61/342 kB | 40/263 kB
+Progress (4): 0.2/1.1 MB | 12/953 kB | 61/342 kB | 40/263 kB 
+Progress (4): 0.2/1.1 MB | 12/953 kB | 61/342 kB | 40/263 kB
+Progress (4): 0.2/1.1 MB | 12/953 kB | 61/342 kB | 44/263 kB
+Progress (4): 0.2/1.1 MB | 16/953 kB | 61/342 kB | 44/263 kB
+Progress (4): 0.2/1.1 MB | 16/953 kB | 61/342 kB | 48/263 kB
+Progress (4): 0.2/1.1 MB | 21/953 kB | 61/342 kB | 48/263 kB
+Progress (4): 0.2/1.1 MB | 25/953 kB | 61/342 kB | 48/263 kB
+Progress (4): 0.2/1.1 MB | 25/953 kB | 61/342 kB | 53/263 kB
+Progress (4): 0.2/1.1 MB | 25/953 kB | 61/342 kB | 53/263 kB
+Progress (4): 0.2/1.1 MB | 29/953 kB | 61/342 kB | 53/263 kB
+Progress (4): 0.2/1.1 MB | 29/953 kB | 61/342 kB | 57/263 kB
+Progress (4): 0.2/1.1 MB | 29/953 kB | 61/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 29/953 kB | 61/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 33/953 kB | 61/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 33/953 kB | 78/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 38/953 kB | 78/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 38/953 kB | 94/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 42/953 kB | 94/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 46/953 kB | 94/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 46/953 kB | 94/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 50/953 kB | 94/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 50/953 kB | 111/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 54/953 kB | 111/342 kB | 61/263 kB
+Progress (4): 0.2/1.1 MB | 59/953 kB | 111/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 59/953 kB | 111/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 63/953 kB | 111/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 63/953 kB | 127/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 67/953 kB | 127/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 71/953 kB | 127/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 71/953 kB | 127/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 76/953 kB | 127/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 80/953 kB | 127/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 80/953 kB | 143/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 84/953 kB | 143/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 84/953 kB | 143/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 88/953 kB | 143/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 88/953 kB | 160/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 93/953 kB | 160/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 97/953 kB | 160/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 101/953 kB | 160/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 101/953 kB | 160/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 101/953 kB | 176/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 101/953 kB | 176/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 101/953 kB | 193/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 117/953 kB | 193/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 117/953 kB | 193/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 130/953 kB | 193/342 kB | 61/263 kB
+Progress (4): 0.3/1.1 MB | 130/953 kB | 209/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 130/953 kB | 209/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 130/953 kB | 225/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 225/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 242/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 242/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 258/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 258/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 274/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 274/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 274/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 291/342 kB | 61/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 291/342 kB | 65/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 291/342 kB | 69/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 291/342 kB | 73/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 291/342 kB | 77/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 307/342 kB | 77/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 307/342 kB | 82/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 307/342 kB | 82/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 307/342 kB | 86/263 kB
+Progress (4): 0.4/1.1 MB | 147/953 kB | 307/342 kB | 90/263 kB
+Progress (4): 0.4/1.1 MB | 163/953 kB | 307/342 kB | 90/263 kB
+Progress (4): 0.4/1.1 MB | 163/953 kB | 324/342 kB | 90/263 kB
+Progress (4): 0.4/1.1 MB | 163/953 kB | 324/342 kB | 94/263 kB
+Progress (4): 0.4/1.1 MB | 163/953 kB | 324/342 kB | 98/263 kB
+Progress (4): 0.4/1.1 MB | 163/953 kB | 324/342 kB | 103/263 kB
+Progress (4): 0.4/1.1 MB | 163/953 kB | 340/342 kB | 103/263 kB
+Progress (4): 0.4/1.1 MB | 179/953 kB | 340/342 kB | 103/263 kB
+Progress (4): 0.4/1.1 MB | 179/953 kB | 340/342 kB | 107/263 kB
+Progress (4): 0.4/1.1 MB | 179/953 kB | 342 kB | 107/263 kB    
+Progress (4): 0.4/1.1 MB | 179/953 kB | 342 kB | 111/263 kB
+Progress (4): 0.4/1.1 MB | 179/953 kB | 342 kB | 115/263 kB
+Progress (4): 0.5/1.1 MB | 179/953 kB | 342 kB | 115/263 kB
+Progress (4): 0.5/1.1 MB | 179/953 kB | 342 kB | 120/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 120/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 124/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 128/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 128/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 132/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.5/1.1 MB | 196/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.5/1.1 MB | 212/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 212/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 228/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 228/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 245/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 245/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 261/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 278/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 278/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 294/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 310/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 310/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 327/953 kB | 342 kB | 136/263 kB
+Progress (4): 0.6/1.1 MB | 327/953 kB | 342 kB | 141/263 kB
+Progress (4): 0.6/1.1 MB | 327/953 kB | 342 kB | 145/263 kB
+Progress (4): 0.6/1.1 MB | 327/953 kB | 342 kB | 149/263 kB
+Progress (4): 0.6/1.1 MB | 327/953 kB | 342 kB | 153/263 kB
+Progress (4): 0.6/1.1 MB | 343/953 kB | 342 kB | 153/263 kB
+Progress (4): 0.6/1.1 MB | 343/953 kB | 342 kB | 158/263 kB
+Progress (4): 0.6/1.1 MB | 343/953 kB | 342 kB | 162/263 kB
+Progress (4): 0.6/1.1 MB | 343/953 kB | 342 kB | 166/263 kB
+Progress (4): 0.6/1.1 MB | 360/953 kB | 342 kB | 166/263 kB
+Progress (4): 0.6/1.1 MB | 360/953 kB | 342 kB | 170/263 kB
+Progress (4): 0.6/1.1 MB | 360/953 kB | 342 kB | 175/263 kB
+Progress (4): 0.6/1.1 MB | 360/953 kB | 342 kB | 179/263 kB
+Progress (4): 0.6/1.1 MB | 360/953 kB | 342 kB | 183/263 kB
+Progress (4): 0.6/1.1 MB | 360/953 kB | 342 kB | 183/263 kB
+Progress (4): 0.6/1.1 MB | 376/953 kB | 342 kB | 183/263 kB
+Progress (4): 0.6/1.1 MB | 376/953 kB | 342 kB | 187/263 kB
+Progress (5): 0.6/1.1 MB | 376/953 kB | 342 kB | 187/263 kB | 0.9/84 kB
+Progress (5): 0.6/1.1 MB | 376/953 kB | 342 kB | 191/263 kB | 0.9/84 kB
+Progress (5): 0.6/1.1 MB | 376/953 kB | 342 kB | 191/263 kB | 2.3/84 kB
+Progress (5): 0.6/1.1 MB | 376/953 kB | 342 kB | 191/263 kB | 3.6/84 kB
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 3.6/84 kB
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 5.0/84 kB
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 6.4/84 kB
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 7.7/84 kB
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 9.1/84 kB
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 10/84 kB 
+Progress (5): 0.6/1.1 MB | 392/953 kB | 342 kB | 191/263 kB | 11/84 kB
+Progress (5): 0.6/1.1 MB | 409/953 kB | 342 kB | 191/263 kB | 11/84 kB
+Progress (5): 0.6/1.1 MB | 409/953 kB | 342 kB | 196/263 kB | 11/84 kB
+Progress (5): 0.6/1.1 MB | 409/953 kB | 342 kB | 196/263 kB | 13/84 kB
+Progress (5): 0.6/1.1 MB | 409/953 kB | 342 kB | 200/263 kB | 13/84 kB
+Progress (5): 0.6/1.1 MB | 409/953 kB | 342 kB | 200/263 kB | 14/84 kB
+Progress (5): 0.6/1.1 MB | 409/953 kB | 342 kB | 200/263 kB | 15/84 kB
+Progress (5): 0.6/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 15/84 kB
+Progress (5): 0.6/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 17/84 kB
+Progress (5): 0.6/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 18/84 kB
+Progress (5): 0.6/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 20/84 kB
+Progress (5): 0.6/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 21/84 kB
+Progress (5): 0.7/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 21/84 kB
+Progress (5): 0.7/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 22/84 kB
+Progress (5): 0.7/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 24/84 kB
+Progress (5): 0.7/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 25/84 kB
+Progress (5): 0.7/1.1 MB | 425/953 kB | 342 kB | 200/263 kB | 26/84 kB
+Progress (5): 0.7/1.1 MB | 441/953 kB | 342 kB | 200/263 kB | 26/84 kB
+Progress (5): 0.7/1.1 MB | 441/953 kB | 342 kB | 200/263 kB | 28/84 kB
+Progress (5): 0.7/1.1 MB | 441/953 kB | 342 kB | 200/263 kB | 29/84 kB
+Progress (5): 0.7/1.1 MB | 441/953 kB | 342 kB | 200/263 kB | 31/84 kB
+Progress (5): 0.7/1.1 MB | 441/953 kB | 342 kB | 200/263 kB | 32/84 kB
+Progress (5): 0.7/1.1 MB | 441/953 kB | 342 kB | 200/263 kB | 33/84 kB
+Progress (5): 0.7/1.1 MB | 458/953 kB | 342 kB | 200/263 kB | 33/84 kB
+Progress (5): 0.7/1.1 MB | 458/953 kB | 342 kB | 200/263 kB | 35/84 kB
+Progress (5): 0.7/1.1 MB | 458/953 kB | 342 kB | 204/263 kB | 35/84 kB
+Progress (5): 0.7/1.1 MB | 458/953 kB | 342 kB | 204/263 kB | 36/84 kB
+                                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar (342 kB at 2.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar
+Progress (4): 0.7/1.1 MB | 458/953 kB | 208/263 kB | 36/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 208/263 kB | 37/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 208/263 kB | 39/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 39/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 40/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 41/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 43/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 44/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 46/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 47/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 48/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 50/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 51/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 225/263 kB | 52/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 241/263 kB | 52/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 241/263 kB | 54/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 241/263 kB | 55/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 241/263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 257/263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 257/263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 59/84 kB    
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 59/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 64/84 kB
+Progress (4): 0.7/1.1 MB | 458/953 kB | 263 kB | 68/84 kB
+Progress (4): 0.8/1.1 MB | 458/953 kB | 263 kB | 68/84 kB
+Progress (4): 0.8/1.1 MB | 458/953 kB | 263 kB | 68/84 kB
+Progress (4): 0.8/1.1 MB | 458/953 kB | 263 kB | 72/84 kB
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar (263 kB at 1.4 MB/s)
+Progress (3): 0.8/1.1 MB | 458/953 kB | 72/84 kB
+Progress (3): 0.8/1.1 MB | 458/953 kB | 76/84 kB
+Progress (3): 0.8/1.1 MB | 458/953 kB | 81/84 kB
+Progress (3): 0.8/1.1 MB | 458/953 kB | 84 kB   
+Progress (3): 0.8/1.1 MB | 458/953 kB | 84 kB
+Progress (3): 0.8/1.1 MB | 458/953 kB | 84 kB
+Progress (3): 0.8/1.1 MB | 458/953 kB | 84 kB
+Progress (3): 0.8/1.1 MB | 474/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 474/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 474/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 491/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 491/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 507/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 507/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 507/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 507/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 523/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 523/953 kB | 84 kB
+Progress (3): 0.9/1.1 MB | 540/953 kB | 84 kB
+Progress (3): 1.0/1.1 MB | 540/953 kB | 84 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar (84 kB at 435 kB/s)
+Progress (2): 1.0/1.1 MB | 540/953 kB
+Progress (2): 1.0/1.1 MB | 556/953 kB
+Progress (2): 1.0/1.1 MB | 556/953 kB
+Progress (2): 1.0/1.1 MB | 573/953 kB
+Progress (2): 1.0/1.1 MB | 573/953 kB
+Progress (2): 1.0/1.1 MB | 573/953 kB
+Progress (2): 1.0/1.1 MB | 589/953 kB
+Progress (2): 1.0/1.1 MB | 589/953 kB
+Progress (2): 1.0/1.1 MB | 605/953 kB
+Progress (2): 1.1 MB | 605/953 kB    
+Progress (2): 1.1 MB | 622/953 kB
+Progress (3): 1.1 MB | 622/953 kB | 7.7/52 kB
+Progress (3): 1.1 MB | 622/953 kB | 16/52 kB 
+Progress (3): 1.1 MB | 622/953 kB | 32/52 kB
+Progress (3): 1.1 MB | 622/953 kB | 48/52 kB
+Progress (3): 1.1 MB | 622/953 kB | 52 kB   
+Progress (3): 1.1 MB | 638/953 kB | 52 kB
+Progress (3): 1.1 MB | 654/953 kB | 52 kB
+Progress (3): 1.1 MB | 671/953 kB | 52 kB
+Progress (3): 1.1 MB | 687/953 kB | 52 kB
+Progress (3): 1.1 MB | 704/953 kB | 52 kB
+Progress (3): 1.1 MB | 720/953 kB | 52 kB
+Progress (3): 1.1 MB | 736/953 kB | 52 kB
+Progress (3): 1.1 MB | 742/953 kB | 52 kB
+Progress (3): 1.1 MB | 758/953 kB | 52 kB
+Progress (3): 1.1 MB | 774/953 kB | 52 kB
+Progress (3): 1.1 MB | 791/953 kB | 52 kB
+Progress (3): 1.1 MB | 807/953 kB | 52 kB
+Progress (3): 1.1 MB | 824/953 kB | 52 kB
+Progress (3): 1.1 MB | 840/953 kB | 52 kB
+Progress (3): 1.1 MB | 856/953 kB | 52 kB
+Progress (3): 1.1 MB | 873/953 kB | 52 kB
+Progress (3): 1.1 MB | 889/953 kB | 52 kB
+Progress (3): 1.1 MB | 905/953 kB | 52 kB
+Progress (3): 1.1 MB | 922/953 kB | 52 kB
+Progress (3): 1.1 MB | 938/953 kB | 52 kB
+Progress (3): 1.1 MB | 953 kB | 52 kB    
+                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar (52 kB at 245 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar (1.1 MB at 5.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar (953 kB at 4.0 MB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-06T22:46:28.648+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] c.e.backend.EveryThingCRmsApplication    : Starting EveryThingCRmsApplication using Java 17.0.12 with PID 7744 (C:\Users\Public\MMrsCrms\EveryThingCRms\target\classes started by NAVEEN ROYAL in C:\Users\Public\MMrsCrms\EveryThingCRms)
+2026-07-06T22:46:28.653+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] c.e.backend.EveryThingCRmsApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-07-06T22:46:28.745+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-06T22:46:28.745+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-06T22:46:29.742+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-06T22:46:29.781+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2026-07-06T22:46:30.727+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-06T22:46:30.751+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-06T22:46:30.751+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-06T22:46:30.822+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2074 ms
+2026-07-06T22:46:31.055+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-06T22:46:31.157+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-06T22:46:31.734+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-06T22:46:31.787+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-06T22:46:32.350+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2aab80b1
+2026-07-06T22:46:32.352+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-06T22:46:32.486+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-06T22:46:33.046+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-06T22:46:33.498+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-06T22:46:33.616+05:30  WARN 7744 --- [EveryThingCRms] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-06T22:46:34.273+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-06T22:46:34.281+05:30  INFO 7744 --- [EveryThingCRms] [  restartedMain] c.e.backend.EveryThingCRmsApplication    : Started EveryThingCRmsApplication in 6.298 seconds (process running for 7.017)
