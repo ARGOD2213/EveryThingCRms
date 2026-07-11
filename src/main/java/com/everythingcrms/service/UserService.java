@@ -27,6 +27,32 @@ public class UserService {
         return user;
     }
 
+    public Optional<UserTest> updateUserById(String id,UserTest UpdatedUser){
+
+        Optional<UserTest> existingUser = getUserById(id);
+
+        if(existingUser.isPresent()){
+          UserTest user = existingUser.get();
+          
+          user.setAge(UpdatedUser.getAge());
+          user.setName(UpdatedUser.getName());
+          user.setGender(UpdatedUser.getGender());
+          user.setId(UpdatedUser.getId());
+
+          return Optional.of(user);
+
+
+        }
+
+        return Optional.empty();
+
+       
+    }
+
+    public boolean userExists(String id){
+        return users.stream().anyMatch(user -> user.getId().equals(id));
+    }
+
     public boolean deleteUserById(String id){
         return users.removeIf(user -> user.getId().equals(id));
     }

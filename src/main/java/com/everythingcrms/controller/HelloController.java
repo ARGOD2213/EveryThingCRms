@@ -8,6 +8,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import java.util.List;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
 
 @RestController
 public class HelloController {
@@ -42,6 +46,26 @@ public class HelloController {
             return ResponseEntity.noContent().build();
         }
         return ResponseEntity.notFound().build();
+    }
+
+    @PostMapping("/users")
+    public ResponseEntity<UserTest> addUser(@RequestBody UserTest user){
+
+        if(userService.userExists(user.getId())){
+            return ResponseEntity.status(409).build();
+        }
+
+        UserTest savedUser = userService.addUser(user);
+        return ResponseEntity.status(201).body(savedUser);
+    }
+
+    
+
+    @PutMapping("/user/{id}")
+
+    public ResponseEntity<UserTest> updateUser(@RequestBody UserTest UpdatedUser,@PathVariable String id){
+        return userService.updateUserById(id,UpdatedUser).map(ResponseEntity :: ok)
+        .orElse(ResponseEntity.notFound().build());
     }
 
 
