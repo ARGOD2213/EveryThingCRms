@@ -54,7 +54,11 @@ public class LeadController {
     // @RequestBody converts JSON from Postman into a Lead object.
     // This is the manual-id create endpoint, where the client sends the id.
     @PostMapping("/leads")
-    public ResponseEntity<Lead> addLeads(@RequestBody Lead leads) {
+    public ResponseEntity<?> addLeads(@RequestBody Lead leads) {
+        if (leadService.InValidStatus(leads.getStatus())) {
+            return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Status"));
+        }
+
         // 409 Conflict means this id already exists, so creating another lead conflicts.
         if (leadService.existsById(leads.getId())) {
             return ResponseEntity.status(409).build();
@@ -68,7 +72,11 @@ public class LeadController {
     // PUT is used for full update of an existing lead.
     // id comes from the URL, and the updated field values come from the JSON body.
     @PutMapping("/leads/{id}")
-    public ResponseEntity<Lead> UpdateUserById(@RequestBody Lead leads, @PathVariable String id) {
+    public ResponseEntity<?> UpdateUserById(@RequestBody Lead leads, @PathVariable String id) {
+        if (leadService.InValidStatus(leads.getStatus())) {
+            return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Status"));
+        }
+
         Optional<Lead> updatedLead = leadService.UpdateLeadById(leads, id);
 
         if (updatedLead.isPresent()) {
@@ -92,8 +100,12 @@ public class LeadController {
     // Returns a list because many leads can have the same status.
     // Empty result is not an error; Spring returns [] with 200 OK.
     @GetMapping("/leads/status/{status}")
-    public List<Lead> getLeadsByStatus(@PathVariable String status) {
-        return leadService.getLeadsByStatus(status);
+    public ResponseEntity<?> getLeadsByStatus(@PathVariable String status) {
+        if (leadService.InValidStatus(status)) {
+            return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Status"));
+        }
+
+        return ResponseEntity.ok(leadService.getLeadsByStatus(status));
     }
 
     // GET /leads/search?email=test@gmail.com
@@ -113,7 +125,11 @@ public class LeadController {
     // PATCH /leads/{id}/status?status=CONTACTED
     // PATCH is used when updating only one or a few fields, not the whole object.
     @PatchMapping("/leads/{id}/status")
-    public ResponseEntity<Lead> updateLeadStatus(@PathVariable String id, @RequestParam String status) {
+    public ResponseEntity<?> updateLeadStatus(@PathVariable String id, @RequestParam String status) {
+        if (leadService.InValidStatus(status)) {
+            return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Status"));
+        }
+
         Optional<Lead> updatedLead = leadService.updateLeadStatus(id, status);
 
         if (updatedLead.isPresent()) {
@@ -125,8 +141,12 @@ public class LeadController {
     // GET /leads/status/{status}/count
     // Returns only a number, so the return type is long.
     @GetMapping("/leads/status/{status}/count")
-    public long countLeadsByStatus(@PathVariable String status) {
-        return leadService.countLeadsByStatus(status);
+    public ResponseEntity<?> countLeadsByStatus(@PathVariable String status) {
+        if (leadService.InValidStatus(status)) {
+            return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Status"));
+        }
+
+        return ResponseEntity.ok(leadService.countLeadsByStatus(status));
     }
 
     // POST /leads/auto
@@ -140,6 +160,10 @@ public class LeadController {
             return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Data"));
         }
 
+        if (leadService.InValidStatus(lead.getStatus())) {
+            return ResponseEntity.badRequest().body(Map.of("message", "Invalid Lead Status"));
+        }
+
         // 409 Conflict means the request is valid, but it conflicts with existing data.
         if (leadService.existsByEmail(lead.getEmail())) {
             return ResponseEntity.status(409).body(Map.of("message", "Email Already Exists"));
@@ -147,6 +171,42 @@ public class LeadController {
 
         Lead savedLead = leadService.addLeadWithAutoId(lead);
         return ResponseEntity.status(201).body(savedLead);
+    }
+
+
+    //get lead Summary
+    @GetMapping("leads/summary")
+    public Map<String,Long> getLeadSummary(){
+        return leadService.getLeadSummary();
+    }
+
+
+    //get leads by keywords
+    @GetMapping("leads/search/name")
+    public ResponseEntity<?> searchLeadsByName(@RequestParam String keyword){
+        if(keyword == null || keyword.isBlank()){
+            return ResponseEntity.badRequest().body(Map.of("message","Search Keyword is Required"));
+        }
+
+        return ResponseEntity.ok(leadService.searchNameByKeyword(keyword));
+    }
+
+    //delete leads by status
+
+    @DeleteMapping("leads/status/{status}")
+    public ResponseEntity<?> deleteLeadsByStatus(@PathVariable String status){
+        if(leadService.InValidStatus(status)){
+            return ResponseEntity.badRequest()
+                                 .body(Map.of("message","Invalid Lead Status"));
+
+        }
+
+        long deletedCount = leadService.deleteByStatus(status);
+
+        if(deletedCount == 0){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(Map.of("message","leads deleted Sucessfully","deleted Count" ,deletedCount));
     }
 
 }

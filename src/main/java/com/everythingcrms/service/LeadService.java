@@ -139,4 +139,41 @@ public class LeadService {
         return lead.stream()
                 .anyMatch(lead -> lead.getEmail().equalsIgnoreCase(email));
     }
+
+
+    //valiadate feilds
+
+    public boolean InValidStatus(String status){
+        return status == null || status.isBlank()
+            || !(status.equalsIgnoreCase("NEW")
+            || status.equalsIgnoreCase("CONTACTED")
+            || status.equalsIgnoreCase("QUALIFIED")
+            || status.equalsIgnoreCase("LOST")); 
+    }
+
+    public Map<String,Long> getLeadSummary(){
+        return Map.of("totalLeads",(long)lead.size(),
+                      "newLeads",countLeadsByStatus("NEW"),
+                    "contactedLeads",countLeadsByStatus("CONTACTED"),
+                    "qualifiedLeads",countLeadsByStatus("QUALIFIED"),
+                    "lostLeads",countLeadsByStatus("LOST")
+                );
+    }
+
+    public List<Lead> searchNameByKeyword(String keyword){
+        return lead.stream()
+                            .filter(lead -> lead.getName().toLowerCase().contains(keyword.toLowerCase()))
+                            .toList();
+    }
+
+
+    public long deleteByStatus(String status){
+        long leadcountBefore = lead.size();
+
+        lead.removeIf(lead -> lead.getStatus().equalsIgnoreCase(status));
+
+        long leadcountAfter = lead.size();
+
+        return leadcountBefore - leadcountAfter;
+    }
 }
