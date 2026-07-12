@@ -54,5 +54,45 @@ public class LeadService {
         return Optional.empty();
     }
 
+    public boolean deleteUserById(String id){
+        return lead.removeIf(lead -> lead.getId().equals(id));
+    }
+
+    public List<Lead> getLeadsByStatus(String status){
+        return lead.stream().filter(lead -> lead.getStatus().equalsIgnoreCase(status)).toList();
+    }
+
+    public Optional<Lead> getLeadsByEmail(String email){
+        return lead.stream().filter(lead -> lead.getEmail().equalsIgnoreCase(email)).findFirst();
+    }
+
+    public Optional<Lead> updateLeadStatus(String id,String status){
+        Optional<Lead> existingLead = getLeadsById(id);
+
+        if(existingLead.isPresent()){
+            Lead lead = existingLead.get();
+            lead.setStatus(status);
+            return Optional.of(lead);
+        }
+        return Optional.empty();
+    }
+
+    public long countLeadsByStatus(String status){
+        return lead.stream()
+                            .filter(lead -> lead.getStatus().equalsIgnoreCase(status))
+                            .count();
+//count returns long
+    }
+
+    public Lead addLeadWithAutoId(Lead newLead){
+        String newId = String.valueOf(lead.size() + 1);
+        newLead.setId(newId);
+        lead.add(newLead);
+
+        return newLead;
+    }
+
+
+
     
 }
